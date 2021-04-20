@@ -29,11 +29,11 @@ a {
 }
 .port-button, .submit {
     background-color: transparent;
-    padding: 17px;
+    padding: 15px;
     text-transform: uppercase;
     border-radius: 30px;
     border: 2.5px solid;
-    max-width: 200px;
+    max-width: 300px;
     margin: 10px auto;
     text-align: center;
     align-content: center;
