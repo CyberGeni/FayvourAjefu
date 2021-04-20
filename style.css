@@ -9,10 +9,10 @@
     height: 100%;
     padding: 0;
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
     color: white;
     font-family: 'Jost', sans-serif;
-    overflow: hidden;
+    overflow: auto;
     width: 100%;
 }
 .navbar-brand {
