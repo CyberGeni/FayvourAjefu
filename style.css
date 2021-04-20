@@ -82,7 +82,7 @@ button.navbar-toggler, .collapse{
     background-color: transparent;
     border-radius: 8px;
     border: 3px solid white;
-    padding: 10px 20px;
+    padding: 10px 50px;
     color: white;
     font-size: 18px;
     width: 70%;
@@ -91,6 +91,7 @@ button.navbar-toggler, .collapse{
 }
 #message:focus, input:focus {
     outline-color: whitesmoke;
+    border-radius: 8px;
 }
 
 ::placeholder {
