@@ -50,9 +50,8 @@ a {
     transition: 2s ease-in-out;
 }
 .name {
-    font-size: 60px;
+    font-size: 50px;
     margin-top: 40px;
-
 }
 .name-info {
     font-size: 30px;
@@ -61,6 +60,7 @@ a {
 }
 .content {
     padding: 30px;
+    display: grid;
 }
 .navbar-brand {
     font-family: 'Jost', sans-serif;
@@ -72,6 +72,12 @@ button.navbar-toggler, .collapse{
 .nav-link {
     margin-left: 20px;
     margin-bottom: 10px;
+}
+.image {
+    display: flex;
+    align-self: center;
+    margin: 30px auto;
+    width: 200px;
 }
 
 /* Contact Form Styling Begins*/
@@ -107,7 +113,7 @@ button.navbar-toggler, .collapse{
     width: 100%;
 }
 .submit {
-    width: 80%;
+    width: 40%;
 }
 .submit:focus {
     outline-color: white;
@@ -135,4 +141,96 @@ button.navbar-toggler, .collapse{
     border-radius: 50%;
     margin: 15px;
     text-align: center;
+}
+footer {
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 10px;
+}
+
+/* media queries */
+@media screen and (min-width: 900px) {
+    .contact {
+        width: 40% auto;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .submit {
+        width: 30%;   
+    }
+    .port-button {
+        width: 40%;
+        margin-left: 3em;
+    }
+    .hero {
+        display: flex;
+    }
+    .hero-image {
+        width: 50%;
+        display: flex;
+        align-self: right;
+        position: relative;
+        right: -550px;
+    }
+    .hero-text {
+        position: relative;
+        width: 50%;
+        left: -500px;
+    }
+    .name {
+        line-height: 100px;
+    }
+    .image {
+        width: 400px;
+    }
+} 
+@media screen and (min-width: 1024px) {
+    .hero {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .hero-image {
+        width: 50% auto;
+        display: flex;
+        align-self: right;
+        position: relative;
+        right: -450px;
+        margin: auto;
+    }
+    .hero-text {
+        position: relative;
+        width: 50%;
+        left: -490px;
+    }
+    .image {
+        width: 350px auto;
+    }
+}
+@media screen and (min-width:900px and max-width: 1440px) {
+    .hero {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .hero-image {
+        width: 50% auto;
+        display: flex;
+        align-self: right;
+        position: relative;
+        right: -750px;
+    }
+    .hero-text {
+        position: relative;
+        right: 90;
+    }
+}
+@media screen and (min-width:900px and max-width: 1024px) {
+    .hero {
+        justify-content: space-evenly;
+    }
+    .hero-image {
+        position: relative;
+        right: 50;
+    }
 }
